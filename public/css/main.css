@@ -1,3 +1,39 @@
+html {
+  height: 100%;
+}
 body {
-  background-color: pink;
+  background: url(../images/hair.jpg) no-repeat center;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  height:50%;
+  position: relative;
+}
+
+.btn .btn-default .btn-lg {
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+.nav {
+  padding: 32px;
+}
+
+.glyphicon{
+  color: pink;
+}
+
+h1 {
+  color: pink;
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+}
+
+.intro {
+  text-align: center;
+  position: relative;
+  bottom: -100px;
 }
